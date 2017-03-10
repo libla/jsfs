@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "newLine": "lf",
+        "noImplicitUseStrict": true,
+        "target": "es5",
+        "allowUnreachableCode": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "strictNullChecks": true,
+        "listFiles": true,
+        "listEmittedFiles": true,
+        "rootDir": "./src",
+        "lib": [
+            "es5",
+            "es2015",
+            "es2015.collection",
+            "es2015.promise"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
